@@ -1,0 +1,69 @@
+$date
+	Thu Aug 07 23:17:24 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_alu $end
+$var wire 1 ! carry $end
+$var wire 4 " result [3:0] $end
+$var wire 1 # zero $end
+$var reg 4 $ a [3:0] $end
+$var reg 4 % b [3:0] $end
+$var reg 3 & sel [2:0] $end
+$var reg 3 ' step [2:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+b11 %
+b101 $
+0#
+b1000 "
+0!
+$end
+#5
+b1 '
+#10
+b10 "
+b1 &
+#15
+b10 '
+#20
+b1 "
+b10 &
+#25
+b11 '
+#30
+b111 "
+b11 &
+#35
+b100 '
+#40
+b110 "
+b100 &
+#45
+b101 '
+#50
+b1010 "
+b101 &
+b0 %
+#55
+b110 '
+#60
+b110 "
+b110 &
+b11 $
+#65
+b111 '
+#70
+b111 &
+b1100 $
+#75
+b0 '
+#80
